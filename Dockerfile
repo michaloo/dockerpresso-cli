@@ -2,4 +2,4 @@
 FROM michaloo/wp-cli
 
 # And adds dockerpresso plugins:
-# RUN wp package install michaloo/wp-cli-environmentalize
+RUN wp package install michaloo/wp-cli-environmentalize
